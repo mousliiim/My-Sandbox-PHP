@@ -1,9 +1,7 @@
-#!/bin/sh
+		#!/bin/sh
+	set -e
+	php_script=futuruh.php
 
-set -e
-
-php_script=futuruh.php
-
-while true; do
-    php $php_script $@
-done
+	while true; do
+    	php $php_script $@
+	done
