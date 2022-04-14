@@ -62,8 +62,10 @@ function colle($x, $y)
         }
     }
 }
+
 colle(30, 10);
-// LA FONCTION RETOURNERA DONC AVEC LES FONCTIONS CI DESSUS LE TABLEAU SUIVANT :
+
+// LA FONCTION RETOURNERA DONC AVEC LES PARAMETRE $x et $y CI DESSUS LE TABLEAU SUIVANT :
  
 /****************************\
 *                            *
