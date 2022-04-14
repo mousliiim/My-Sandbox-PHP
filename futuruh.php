@@ -22,10 +22,10 @@ $future->format('H:i:s');
 if($maintenant < $future){
 
 $intervale = $future->diff($maintenant);
-echo $intervale->format("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n $monprenom\n\n                               %h Heures, %i Minute, %s Secondes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+echo $intervale->format("\n\n\n\n $monprenom\n\n                               %h Heures, %i Minute, %s Secondes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 }
 elseif($maintenant > $future){
-echo "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n$iftartime\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
+echo "\n\n\n\n\n$iftartime\n";
 }
 }
 heuremaghrib(20, 45);
