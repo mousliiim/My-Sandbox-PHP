@@ -16,17 +16,17 @@ __  __                 _ _             _____  __ _               _______ _
  |_|  |_|\___/ \__,_|___/_|_|_| |_| |_| |_____|_|  \__\__,_|_|       |_|  |_|_| |_| |_|\___|
 ";
 $maintenant = new DateTime();
-$future = new DateTime('2022-04-14');
+$future = new DateTime('2022-04-15');
 $future->setTime($H, $i);
 $future->format('H:i:s');
 if($maintenant < $future){
 
 $intervale = $future->diff($maintenant);
-echo $intervale->format("\n\n\n\n $monprenom\n\n                               %h Heures, %i Minute, %s Secondes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+echo $intervale->format("\n\n\n\n $monprenom\n\n                               %h Heures, %i Minutes, %s Secondes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 }
 elseif($maintenant > $future){
 echo "\n\n\n\n\n\n\n\n\n\n\n\ $iftartime \n\n\n\n\n\n\n\n";
 }
 }
-heuremaghrib(20, 44);
-// Combien de Temps avant de pouvoir manger ? premier parametre avec +1h par rapport 
+heuremaghrib(20, 45);
+// Heure du Maghrib du Jour a mettre 
