@@ -67,7 +67,7 @@ echo PHP_EOL ."\033[01;31m                      ________________
                 |           o|   ''''   |   \__/
                 |            |          |
 
- Ont arrête de faire le malin et ont sort maintenant le mec Wac \033[0m" . PHP_EOL . PHP_EOL;
+ Ont arrête de faire le malin et ont sort maintenant le mec de la Wac \033[0m" . PHP_EOL . PHP_EOL;
  sleep(5);
  die;
 }
