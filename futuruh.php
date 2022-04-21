@@ -16,7 +16,7 @@ __  __                 _ _             _____  __ _               _______ _
  |_|  |_|\___/ \__,_|___/_|_|_| |_| |_| |_____|_|  \__\__,_|_|       |_|  |_|_| |_| |_|\___|
 ";
 $maintenant = new DateTime();
-$future = new DateTime('2022-04-15');
+$future = new DateTime('2022-04-20');
 $future->setTime($H, $i);
 $future->format('H:i:s');
 if($maintenant < $future){
@@ -28,5 +28,5 @@ elseif($maintenant > $future){
 echo "\n\n\n\n\n\n\n\n\n\n\n\ $iftartime \n\n\n\n\n\n\n\n";
 }
 }
-heuremaghrib(20, 45);
+heuremaghrib(20, 54);
 // Heure du Maghrib du Jour a mettre 
