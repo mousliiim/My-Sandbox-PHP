@@ -6,7 +6,7 @@ $prenom = array(
 	'Ilies'
 );
 $strings = array(
-    'va bien rentrer chez lui',
+    'va bien rentrer chez lui !',
     'feras un détour au Chicken Spot',
     'iras faire un baby avant de se rendre chez lui',
     'iras voir les deux fréres des tarterets',
